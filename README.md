@@ -52,7 +52,7 @@ Agora iremos configurar o ambiente para iniciarmos nosso projeto com o Cypress. 
 Faça o download o NodeJS e instale a versão compatível com seu Sistema Operacional;
 Faça o download e instale o VSCODE ou outra IDE de sua preferência;
 
-### 02 Instale o Cypress
+### 02 Instale o Cypress 
 
 npm install cypress --save-dev
 
