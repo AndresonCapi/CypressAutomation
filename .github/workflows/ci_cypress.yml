@@ -26,3 +26,13 @@ jobs:
 
       - name: Run Cypress Tests
         run: npm run cypress:run
+      
+      - name: Robot Reporter
+        uses: joonvena/robotframework-reporter-action@v2.5
+        if: success() || failure()
+        with:
+          gh_access_token: ${{ secrets.GITHUB_TOKEN }}
+          report_path: results/
+
+
+          
